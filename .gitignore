@@ -1,0 +1,97 @@
+# === OS / Filesystem ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Test / coverage / type checking
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pytype/
+.pyre/
+.hypothesis/
+
+# Linters / formatters
+.ruff_cache/
+.pylint.d/
+
+# === Editors / IDEs ===
+# VS Code (project-local; remove if you want to commit workspace settings)
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio
+.vs/
+
+# Others
+*.swp
+*.swo
+*~
+.history/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Node / Frontend (optional, harmless if unused) ===
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# === Caches ===
+.cache/
+
+# === Logs ===
+*.log
+
+# === Local environment / secrets ===
+.env
+.env.*
+.envrc
+
+# === Documentation builds ===
+# Sphinx
+_build/
+
+# === Databases (common local dev) ===
+*.sqlite3
+*.db
+
+# Keep sample data tracked (no blanket data ignores here)
+# If you add large data folders later, consider ignoring them explicitly.
